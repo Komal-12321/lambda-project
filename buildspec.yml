@@ -8,7 +8,7 @@ phases:
   build:
     commands:
       - echo Creating zip file...
-      - zip function.zip lambda_fun.py
+      - zip function.zip lambda_function.py
 
 artifacts:
   files:
